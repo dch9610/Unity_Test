@@ -42,8 +42,8 @@ public class Test_Namespace : MonoBehaviour
 {
 
     // 선언과 생성을 해줘야함
-    // using을 Lee.Study로만 했을 경우 Study 안에 있는 함수 C를 불러옴 
     // using을 Lee로만 했을 경우 Lee.C로 C 함수 호출
+    // Lee Study namespace 안에 C 함수 호출 Lee.Study.C
     Lee.C Lee;
     Lee.Study.C Lee2;
 
