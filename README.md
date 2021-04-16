@@ -132,3 +132,49 @@ Unity를 활용한 C# 공부
     // 부모클래스에서 반드시 해당 함수를 만들라고 선언해줌
     // 자식클래스에서 함수를 완셩시켜라고 해줌 
     // 선언한 부모클래스의 함수를 자식클래스에서 재정의
+---
+### (2021.04.16)
+- C# 스크립트 코드를 Unity에서 확인하도록 함
+    - 속성(프로퍼티), 인덱서, 인터페이스, 람다, 파라미터, action_func함수, 예외처리
+
+#### 속성 (프로퍼티)
+    - 스패너 모양
+    - 프로퍼티를 이용한 함수 구조: public 자료형 함수명 {get; set;}
+    // 읽기 get, 쓰기 set 함수 내용 반드시 value 사용
+
+#### 인덱서
+    - this : 해당 클래스를 지칭하는 예약어
+    // 프로퍼티와 동일하게 구성
+
+#### 인터페이스
+    - 인터페이스를 사용하면 다중 상속이 가능
+    - 뼈대 제공, 함수, 프로퍼티, 인덱서, 이벤트만 들어감
+    - 변수값 지정은 안됨
+    - override를 하지않아도 됨
+
+#### 매개변수
+    - 형식 매개변수를 이용하여 함수생성, 불특정 타입의 매개변수를 받을때 사용
+    - where T를 사용하여 제약조건 설정
+    ex) public class Abc<T>
+    void Print<T>(T value)
+
+#### 람다
+    - 형식 매개변수를 이용하여 delegate 함수를 만들 수 있음
+    - 무명 메서드 (delegate에서만 호출가능) ex) delegate(){print(sum);};
+    - 람다식 (int a) => return a; : 매개변수 a를 받고, 그 a를 반환하는 람다식
+    - 람다식 적용
+    // 형식 매개변수를 사용한 delegate 이용
+        myDelegate += (int a, int b) => print(a + b);
+
+#### Action,Func
+    - delegate void MyDelegate<T1, T2>(T1 a, T2 b);
+    MyDelegate<int, int> myDelegate;
+    => Action<int, int> myDelegate2;
+
+    - Func<int, int, string> myDelegate3; 출력의 타입까지 지정가능
+
+#### 예외처리
+    - try.. catch.. finally 구조
+    - catch는 오류가 발생했을때 어떻게 보여줄것인가
+    - finally는 오류의 상관없이 결과를 보여줌
+    - throw 오류를 일부러 발생시킴
