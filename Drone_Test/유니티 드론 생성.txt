@@ -1,0 +1,86 @@
+유니티 드론
+
+1. Create a Unity Project
+- Project Setting
+	- Player => Linear
+
+- Package Manager =>Post Processing 설치
+
+
+2. Install the Input System & Working with the input Mapping
+2.1 Package Manager =>Input System 설치
+2.2 Assets => Create  Input Action 생성 (Drone_Input)으로 변경
+	- Action Maps => Drone
+		- Action => Move 생성 (Type : Value)
+			- AD 생성 : Composite Type : 1D Axis
+			- Negative : A [keyboard] => Path : A [keyboard]
+			- Positive : D [keyboard] => Path : D [keyboard]
+
+2.3 Test_Input(Script) 파일 Inspector 설정
+	- Add Component => Player Input => Actions : Drone_Input 파일 추가
+		- Default Map : Drone으로 설정
+		- Behavior : Send Message로 설정
+
+2.4 Assets => Create  C# 생성 ( Test_Input)으로 변경
+	- using UnityEngine.InputSystem; 추가
+	- OnMove 함수 생성
+		- private void OnMove(InputValue value)
+   			 {
+        				Debug.Log(value.Get<float>());
+   			 }
+	- Test_Input 파일 Inspector 설정
+		- Test_Input(Script) 파일 추가
+
+2.5 Game에서 동작 후 Console 로그 확인
+
+
+
+
+3. Prep the Drone Model
+- Project (파일 정리) 
+	- Assets 
+		- Drone_Controller 생성
+			- Art 폴더 생성
+				- Art 폴더에 드론 이미지 파일 옮기기
+			- Code 파일 생성
+			- Input 파일 생성
+				- Drone_Input 파일 옮기기
+			- Scenes 파일 생성
+				- Drone_Controller로 이름 변경후 저장
+
+- Hierarchy 
+	- Level_GRP 생성
+		- Light_GRP 생성
+			- Directional Light 파일 옮기기
+			- Reflection Probe 생성
+
+	- Ground 생성 (3D -> Plane)
+		- 드론 파일에 Textures 폴더를 Art 폴더로 복사
+		- Gray_Grid_Mat
+			- Albedo에 gray_grid 파일을 드래그
+		- 그 후 Ground 파일로 드래그
+
+- Window
+	- Rendering
+		- Lighting
+			- Scene에서 Lighting Settings 생성
+			- Lightingmapping Setting
+				- Indiect Samples : 128
+				- Envronment Samples : 128
+				- Lightmap Resoution : 10
+				- Parameters : Default-LowResolution 
+
+			- Environment 
+			- Directional Light => Sun Source로 드래그
+
+
+
+
+
+
+Section2 - Video2 (2021.04.19)
+* Core Concepts
+- Set up our Input scripts
+- Learn a bit more about the Input System
+- Hook up keyboard and Xbox Controller
+- Add Post Effects

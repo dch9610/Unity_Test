@@ -1,0 +1,270 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'ko' Physical Memory: 16201 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pnu/Desktop/Unity_Test/Unity_Test/City
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60696
+Successfully changed project path to: C:/Users/pnu/Desktop/Unity_Test/Unity_Test/City
+C:/Users/pnu/Desktop/Unity_Test/Unity_Test/City
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pnu/Desktop/Unity_Test/Unity_Test/City/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004442 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 20.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.348800 ms (FindLiveObjects: 0.098700 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.170000 ms  DeleteObjects: 0.052100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Quad_Racer
+  artifactKey: Guid(d5878e1f7259c494a85ffe066bd1d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer using Guid(d5878e1f7259c494a85ffe066bd1d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcce86214d18fda97410d698c37d528') in 0.003396 seconds
+  Import took 0.005123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581462 seconds.
+  path: Assets/Quad_Racer/Art
+  artifactKey: Guid(0dfa475b337461748a80269b58ccd63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art using Guid(0dfa475b337461748a80269b58ccd63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1312aa54d0aab0eb23e95b6ff969370') in 0.002020 seconds
+  Import took 0.012125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733053 seconds.
+  path: Assets/Quad_Racer/Art/Drones
+  artifactKey: Guid(f93943d792fcd2c4c8808d3cd591ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones using Guid(f93943d792fcd2c4c8808d3cd591ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4a7618b1777ff20028d8d96e70b643') in 0.002148 seconds
+  Import took 0.003567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Quad_Racer/Art/Drones
+  artifactKey: Guid(f93943d792fcd2c4c8808d3cd591ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones using Guid(f93943d792fcd2c4c8808d3cd591ba83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4a7618b1777ff20028d8d96e70b643') in 0.002146 seconds
+  Import took 0.003765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567368 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01
+  artifactKey: Guid(859b4cffb3da0e649ae6b007c4345486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01 using Guid(859b4cffb3da0e649ae6b007c4345486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797a1236c748c6d1dcbdf09dad267fb1') in 0.002387 seconds
+  Import took 0.003882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001770 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01
+  artifactKey: Guid(859b4cffb3da0e649ae6b007c4345486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01 using Guid(859b4cffb3da0e649ae6b007c4345486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797a1236c748c6d1dcbdf09dad267fb1') in 0.001930 seconds
+  Import took 0.003809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052002 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Drone_01.fbx
+  artifactKey: Guid(cae7bd101fff4ff4d8ecdaef191105c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Drone_01.fbx using Guid(cae7bd101fff4ff4d8ecdaef191105c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84d781f1d5631f4b4efed734cca51b4') in 0.450466 seconds
+  Import took 0.454143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.720060 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Materials
+  artifactKey: Guid(be7097dd3d1663d4aa3d5f8ac45be54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Materials using Guid(be7097dd3d1663d4aa3d5f8ac45be54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deecc556b37d3f9898be2b09b28494d') in 0.002326 seconds
+  Import took 0.004230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Materials
+  artifactKey: Guid(be7097dd3d1663d4aa3d5f8ac45be54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Materials using Guid(be7097dd3d1663d4aa3d5f8ac45be54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deecc556b37d3f9898be2b09b28494d') in 0.002363 seconds
+  Import took 0.003784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023471 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Materials/Drone1_Body.mat
+  artifactKey: Guid(7bfee2089e381d04b97104d1fbf1bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Materials/Drone1_Body.mat using Guid(7bfee2089e381d04b97104d1fbf1bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d55b20fe711f81da83f441eb83c69fa') in 0.030696 seconds
+  Import took 0.032262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Materials/Drone1_Propellers.mat
+  artifactKey: Guid(53ebbe52fd8e54045ba4f96956a6a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Materials/Drone1_Propellers.mat using Guid(53ebbe52fd8e54045ba4f96956a6a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92bca1ba2fba04d1231206472d51ef4') in 0.015400 seconds
+  Import took 0.017452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Materials/Drone1_Shell.mat
+  artifactKey: Guid(dd6bad4314ad3a74d96ea62b0a48cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Materials/Drone1_Shell.mat using Guid(dd6bad4314ad3a74d96ea62b0a48cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c468b87752f77542517fb41882c870') in 0.016504 seconds
+  Import took 0.018863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.325070 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures
+  artifactKey: Guid(9fc578f053609954cac70fd1bc11e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures using Guid(9fc578f053609954cac70fd1bc11e57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640444c6df2ff82c9b7daedf3a4f8e27') in 0.003977 seconds
+  Import took 0.006205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028674 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/BodyWork1_Albedo.png
+  artifactKey: Guid(5d9733126def5644895bf68945812ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/BodyWork1_Albedo.png using Guid(5d9733126def5644895bf68945812ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19cbc8616e8542f883014776f6de0b7') in 0.028127 seconds
+  Import took 0.029687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_NM.png
+  artifactKey: Guid(e7cbe1b5404c3f2428ac78b6e09d08f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_NM.png using Guid(e7cbe1b5404c3f2428ac78b6e09d08f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52a9f9b528039b06b52f37fcb64353f') in 0.010694 seconds
+  Import took 0.012579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_NM.png
+  artifactKey: Guid(8977f827814d16a469ce4e7bec5b4fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_NM.png using Guid(8977f827814d16a469ce4e7bec5b4fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557305e643a1ff4484050c3aa6240ad5') in 0.009380 seconds
+  Import took 0.011396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_Albedo.png
+  artifactKey: Guid(e22ceda5985b89d4699cdf9286f1f89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_Albedo.png using Guid(e22ceda5985b89d4699cdf9286f1f89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9381d7ac940f2168cf3bae378f1d31') in 0.007251 seconds
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_AO.png
+  artifactKey: Guid(e9c90e19ee3aa1542b0d0aea4e1e4fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_AO.png using Guid(e9c90e19ee3aa1542b0d0aea4e1e4fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d81684dc579cb1ac14cc94b7dd60461') in 0.010106 seconds
+  Import took 0.012298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_AO.png
+  artifactKey: Guid(f309162f83f0d71469a7c7bae37ab1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_AO.png using Guid(f309162f83f0d71469a7c7bae37ab1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50e3659c131b5f726a875c70be0d2b5') in 0.007283 seconds
+  Import took 0.009040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/BodyWork1_MetallicS.png
+  artifactKey: Guid(f9ececcc62b1e71418b8b3278790832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/BodyWork1_MetallicS.png using Guid(f9ececcc62b1e71418b8b3278790832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd855da8147b4fb3f4ead3cbd9a06a8e7') in 0.008834 seconds
+  Import took 0.010710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_Albedo.png
+  artifactKey: Guid(8a87601cef5c0744a99ea929ee5bece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_Albedo.png using Guid(8a87601cef5c0744a99ea929ee5bece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531eb46b65b9ee34ad27e402673fd9c7') in 0.007159 seconds
+  Import took 0.008985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_MetallicS.png
+  artifactKey: Guid(2d9668ea9ab345e458acf2124b78532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Propellers1_MetallicS.png using Guid(2d9668ea9ab345e458acf2124b78532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013e2faef8b71dc113b4132d528b0943') in 0.008800 seconds
+  Import took 0.010594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_MetallicS.png
+  artifactKey: Guid(e75172e92fefb5d42bf868a2e3a3466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/Shell1_MetallicS.png using Guid(e75172e92fefb5d42bf868a2e3a3466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00bbda81fd024fee4b47c26aa687aad') in 0.007499 seconds
+  Import took 0.009432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Quad_Racer/Art/Drones/01/Textures/BodyWork1_NM.png
+  artifactKey: Guid(06addbb6b7e5ab2498716ec00736abad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quad_Racer/Art/Drones/01/Textures/BodyWork1_NM.png using Guid(06addbb6b7e5ab2498716ec00736abad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6575d7c3a0334d7ba151ce16ccaedd24') in 0.008910 seconds
+  Import took 0.010515 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

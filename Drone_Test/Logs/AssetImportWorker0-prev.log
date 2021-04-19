@@ -1,0 +1,190 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'ko' Physical Memory: 16201 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pnu/Desktop/Unity_Test/Test/Drone_Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63683
+Successfully changed project path to: C:/Users/pnu/Desktop/Unity_Test/Test/Drone_Test
+C:/Users/pnu/Desktop/Unity_Test/Test/Drone_Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pnu/Desktop/Unity_Test/Test/Drone_Test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004374 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 26.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1532 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 1.811900 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.101900 ms MarkObjects: 1.339200 ms  DeleteObjects: 0.057100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Drone_Controller/Scenes
+  artifactKey: Guid(d4577520adaa1d24d98f01edbcdc7301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Scenes using Guid(d4577520adaa1d24d98f01edbcdc7301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a58fff34b1ff97b1dde9e309eb5cd7d') in 0.003440 seconds
+  Import took 0.005743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.315541 seconds.
+  path: Assets/Drone_Controller/Scenes/Drone_Controller_DEV.unity
+  artifactKey: Guid(7bf52d79cc4ff27459615982c838caee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Scenes/Drone_Controller_DEV.unity using Guid(7bf52d79cc4ff27459615982c838caee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a3c58acecb21771cdc8b6527c58009') in 0.011173 seconds
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1239.305009 seconds.
+  path: Assets/Drone_Controller/Art/New Folder
+  artifactKey: Guid(0424ded210fd7c7489c194c83a87f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/New Folder using Guid(0424ded210fd7c7489c194c83a87f9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8e75bbc2ac9a55ed9b6ea51d534b35') in 0.002294 seconds
+  Import took 0.004778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.632870 seconds.
+  path: Assets/Drone_Controller/Art/Textures/gray-grid.png
+  artifactKey: Guid(c00625c81499d9f43b3fd062d83c9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Textures/gray-grid.png using Guid(c00625c81499d9f43b3fd062d83c9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5756c61082c574e1d68352a68bd7d0a') in 0.094923 seconds
+  Import took 0.097096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Drone_Controller/Art/Textures/Gray_Grid_MAT.mat
+  artifactKey: Guid(4e28cf616129d04429e6b17c82c9b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Textures/Gray_Grid_MAT.mat using Guid(4e28cf616129d04429e6b17c82c9b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e9ac8b2fb7d707c1e37fd15af3753') in 0.059714 seconds
+  Import took 0.061608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Drone_Controller/Art/Textures/orange-grid.png
+  artifactKey: Guid(31cc6d9051c9cee4ab347cef017c4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Textures/orange-grid.png using Guid(31cc6d9051c9cee4ab347cef017c4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58d2dda568fbed674a0f4a0ea2661e3') in 0.005726 seconds
+  Import took 0.007572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Drone_Controller/Art/Textures/Orange_Grid_MAT.mat
+  artifactKey: Guid(d2efefbec0b82554f90384e256c193bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Textures/Orange_Grid_MAT.mat using Guid(d2efefbec0b82554f90384e256c193bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520d93633926a004486874168d33213d') in 0.006238 seconds
+  Import took 0.008096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.647907 seconds.
+  path: Assets/Drone_Light.lighting
+  artifactKey: Guid(269f9b6126746404b88505c2c4efe677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Light.lighting using Guid(269f9b6126746404b88505c2c4efe677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd154cd2a8210543cd9fa2d9f1702f93b') in 0.007857 seconds
+  Import took 0.010600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/Drone_Light.lighting
+  artifactKey: Guid(269f9b6126746404b88505c2c4efe677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Light.lighting using Guid(269f9b6126746404b88505c2c4efe677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd154cd2a8210543cd9fa2d9f1702f93b') in 0.002851 seconds
+  Import took 0.005070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.769298 seconds.
+  path: Assets/Drone_Light.lighting
+  artifactKey: Guid(269f9b6126746404b88505c2c4efe677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Light.lighting using Guid(269f9b6126746404b88505c2c4efe677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c56c1fb053ea892601b880bdf97d32c') in 0.002467 seconds
+  Import took 0.004702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 330.742317 seconds.
+  path: Assets/Drone_Controller/Art/Textures/Gray_Grid_MAT.mat
+  artifactKey: Guid(4e28cf616129d04429e6b17c82c9b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Textures/Gray_Grid_MAT.mat using Guid(4e28cf616129d04429e6b17c82c9b020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f02a65714b8d761436ba29b4abd678e') in 0.008932 seconds
+  Import took 0.011485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 654.344918 seconds.
+  path: Assets/Drone_Controller/Art/Drones/01/Materials/Drone1_Propellers.mat
+  artifactKey: Guid(53ebbe52fd8e54045ba4f96956a6a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Drones/01/Materials/Drone1_Propellers.mat using Guid(53ebbe52fd8e54045ba4f96956a6a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92bca1ba2fba04d1231206472d51ef4') in 0.034219 seconds
+  Import took 0.037251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Drone_Controller/Art/Drones/01/Materials/Drone1_Body.mat
+  artifactKey: Guid(7bfee2089e381d04b97104d1fbf1bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Drones/01/Materials/Drone1_Body.mat using Guid(7bfee2089e381d04b97104d1fbf1bf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d55b20fe711f81da83f441eb83c69fa') in 0.019326 seconds
+  Import took 0.021512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Drone_Controller/Art/Drones/01/Materials/Drone1_Shell.mat
+  artifactKey: Guid(dd6bad4314ad3a74d96ea62b0a48cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone_Controller/Art/Drones/01/Materials/Drone1_Shell.mat using Guid(dd6bad4314ad3a74d96ea62b0a48cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c468b87752f77542517fb41882c870') in 0.016988 seconds
+  Import took 0.019427 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
